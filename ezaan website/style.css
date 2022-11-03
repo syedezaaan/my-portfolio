@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img{
+    width: 45%;
+    cursor: default;
+}
+
+.navbar{
+    background-color: #000;
+    color: #fff;
+    height: 150px;
+}
+
+.container{
+    max-width: 1100px;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+    padding: 0;
+
+}
+
+.logo{
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 10px 10px;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.grid-2{
+    grid-template-columns: repeat(2, 4fr);
+}
+
+.card{
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 30px;
+    display: block;
+}
+
+.social .flex{
+    flex-wrap: wrap;
+}
+
+.social .card{
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+
+
+.social .card h4{
+    font-size: 15px;
+}
+
+.social .card:hover{
+    transform: scale(1.2);
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bg-dark{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    align-items: center;
+    padding: 20px;
+}
